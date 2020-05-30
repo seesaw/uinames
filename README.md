@@ -1,7 +1,7 @@
-uinames.com
+https://cybertek-ui-names.herokuapp.com/api/
 =======
 
-This is the repo for [uinames.com](https://uinames.com). Feel free to contribute to the project by adding names. Keep in mind that more isn't better. Quality over quantity. Quality being the most common/popular names in a region.
+This is the repo for [uinames.com](https://cybertek-ui-names.herokuapp.com/api/). Feel free to contribute to the project by adding names. Keep in mind that more isn't better. Quality over quantity. Quality being the most common/popular names in a region.
 
 ### The Algorithm
 When the option to pick a region at random is selected, a region will be picked based on the amount of possible name-combinations for that region. A region with more names is more likely to be picked, and regions with less names are less likely to be picked. I propose having a maximum of 100 male names, 100 female names and 300 last names per region. That's 60.000 possible combinations per region.
@@ -52,7 +52,7 @@ For JSONP, specify a callback function to wrap results in:
 Additional random data is served to requests passing an `ext` parameter. However, response times may be slower, especially when requesting larger quantities of data.
 All photos are hand-picked from [unsplash.com](https://unsplash.com) ([license](https://unsplash.com/license)):
 <pre>
-https://uinames.com/api/<strong>?ext</strong>
+https://cybertek-ui-names.herokuapp.com/api/<strong>?ext</strong>
 ---
 {
   "name": "John",
@@ -75,7 +75,7 @@ https://uinames.com/api/<strong>?ext</strong>
     "pin": 1234,
     "security": 123
   },
-  "photo": "https://uinames.com/api/photos/male/1.jpg"
+  "photo": "https://cybertek-ui-names.herokuapp.com/api/photos/male/1.jpg"
 }
 </pre>
 #### Exception handling
