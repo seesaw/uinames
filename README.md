@@ -21,7 +21,7 @@ When the option to pick a region at random is selected, a region will be picked 
 All responses are returned as JSON(P) over HTTP(S). There is currently no request limit. However, please keep the amount of requests to a minimum, and cache responses whenever possible.
 
 #### Basic usage
-    https://uinames.com/api/
+    https://cybertek-ui-names.herokuapp.com/api/
     ---
     {
       "name":"John",
@@ -31,22 +31,22 @@ All responses are returned as JSON(P) over HTTP(S). There is currently no reques
     }
 #### Optional Parameters
 Number of names to return, between `1` and `500`:
-<pre>https://uinames.com/api/<strong>?amount=25</strong></pre>
+<pre>https://cybertek-ui-names.herokuapp.com/api/<strong>?amount=25</strong></pre>
 
 Limit results to the `male` or `female` gender:
-<pre>https://uinames.com/api/<strong>?gender=female</strong></pre>
+<pre>https://cybertek-ui-names.herokuapp.com/api/<strong>?gender=female</strong></pre>
 
 Region-specific results:
-<pre>https://uinames.com/api/<strong>?region=germany</strong></pre>
+<pre>https://cybertek-ui-names.herokuapp.com/api/<strong>?region=germany</strong></pre>
 
 Require a minimum number of characters in a name:
-<pre>https://uinames.com/api/<strong>?minlen=25</strong></pre>
+<pre>https://cybertek-ui-names.herokuapp.com/api/<strong>?minlen=25</strong></pre>
 
 Require a maximum number of characters in a name:
-<pre>https://uinames.com/api/<strong>?maxlen=75</strong></pre>
+<pre>https://cybertek-ui-names.herokuapp.com/api/<strong>?maxlen=75</strong></pre>
 
 For JSONP, specify a callback function to wrap results in:
-<pre>https://uinames.com/api/<strong>?callback=example</strong></pre>
+<pre>https://cybertek-ui-names.herokuapp.com/api/<strong>?callback=example</strong></pre>
 
 #### Extra Data
 Additional random data is served to requests passing an `ext` parameter. However, response times may be slower, especially when requesting larger quantities of data.
