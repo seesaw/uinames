@@ -177,7 +177,7 @@
 			<h2>Overview</h2>
 			<p>All responses are returned as JSON(P) over HTTP(S). There is currently no request limit. However, please keep the amount of requests to a minimum, and cache responses whenever possible.</p>
 			<h2>Basic Usage</h2>
-<pre>https://uinames.com/api/
+<pre>https://seesaw-uinames.herokuapp.com/api/
 <span>---</span>
 {
   <span class="key">"name"</span>: <span class="val">"John"</span>,
@@ -188,25 +188,25 @@
 </pre>
 			<h2>Optional Parameters</h2>
 			<p>Number of names to return, between <code>1</code> and <code>500</code>:</p>
-			<pre><span>https://uinames.com/api/</span>?amount=25</pre>
+			<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?amount=25</pre>
 			<p>Limit results to the <code>male</code> or <code>female</code> gender:</p>
-			<pre><span>https://uinames.com/api/</span>?gender=female</pre>
+			<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?gender=female</pre>
 			<p>Region-specific results:</p>
-			<pre><span>https://uinames.com/api/</span>?region=germany</pre>
+			<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?region=germany</pre>
 			<p>Require a minimum number of characters in a name:</p>
-			<pre><span>https://uinames.com/api/</span>?minlen=25</pre>
+			<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?minlen=25</pre>
 			<p>Require a maximum number of characters in a name:</p>
-			<pre><span>https://uinames.com/api/</span>?maxlen=75</pre>
+			<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?maxlen=75</pre>
 			<p>For JSONP, specify a callback function to wrap results in:</p>
-			<pre><span>https://uinames.com/api/</span>?callback=example</pre>
+			<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?callback=example</pre>
 			<!-- no region currently supports different languages
 			<p>Results for a language within a region:</p>
-			<pre><span>https://uinames.com/api/</span>?region=switzerland&amp;language=german</pre>
+			<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?region=switzerland&amp;language=german</pre>
 			-->
 			<h2>Extra Data</h2>
 			<p>Additional random data is served to requests passing an <code>ext</code> parameter. However, response times may be slower, especially when requesting larger quantities of data.</p>
 			<p>All photos are hand-picked from <a href="https://unsplash.com" target="_blank">Unsplash</a> (<a href="https://unsplash.com/license" target="_blank">license</a>):</p>
-<pre><span>https://uinames.com/api/</span>?ext
+<pre><span>https://seesaw-uinames.herokuapp.com/api/</span>?ext
 <span>---</span>
 {
   <span class="key">"name"</span>: <span class="val">"John"</span>,
@@ -229,7 +229,7 @@
     <span class="key">"pin"</span>: <span class="int">1234</span>,
     <span class="key">"security"</span>: <span class="int">123</span>
   },
-  <span class="key">"photo"</span>: <span class="val">"https://uinames.com/api/photos/male/1.jpg"</span>
+  <span class="key">"photo"</span>: <span class="val">"https://seesaw-uinames.herokuapp.com/api/photos/male/1.jpg"</span>
 }
 </pre>
 			<h2>Exception Handling</h2>
